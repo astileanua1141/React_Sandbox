@@ -1,7 +1,8 @@
 # React_Sandbox
-A collection of Microservices projects based on React, created through courses and learning materials. 
-
+A collection of Microservices projects based on React, Node and Express,  created through courses and learning materials. 
+Course: Udemy-Microservices.with.Node.JS.and.React
 ## #1: 1-small-react-blog
+
 Components: 
 #### client
 	A React base app, containing some pages that allow some calls to the 2 services: posts and comments.
