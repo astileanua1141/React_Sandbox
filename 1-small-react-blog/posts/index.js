@@ -25,6 +25,7 @@ app.post('/posts', async (req, res) => {
     posts[id] = {
         id, title
     }
+   
     await axios.post('http://localhost:4005/events',
         {
             type: 'PostCreated',
@@ -32,7 +33,12 @@ app.post('/posts', async (req, res) => {
                 id, title
             }
         }
-    )
+    ).then((result) => {
+        console.log("ok")
+    }).catch((err) => {
+        console.error(err)
+        
+    });
 
     res.status(201).send(posts[id])
 })
@@ -45,5 +51,6 @@ app.post('/events',  (req, res) => {
 })
 
 app.listen(4000, () => {
+    console.log('v16')
     console.log('Listening on 4000')
 })
