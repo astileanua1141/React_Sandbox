@@ -1,4 +1,4 @@
-# React_Sandbox
+# Service Bus w/ Kubernetes - Minimal Viable Product
 ## Description
 
 :checkered_flag: **Objective**: This repository contains a small Microservices application, similar to a Blog, having posts and comments and ... nothing else. The focus of this app was to get out of the comfort zone, and start developing applications in the cloud, not just in my Terminal window.
